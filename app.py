@@ -7,8 +7,8 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Configuration
-OPENWEATHER_API_KEY = "b5353a7c0d55517a14d818a4881a0b49"
-MAPBOX_ACCESS_TOKEN = "pk.eyJ1IjoiaXNoYW4xMzMiLCJhIjoiY21leDV0dzNqMGQwdTJrczdtYTI3YTd3dCJ9.nWZ7_QLgUrjHt6SaVVCvhA"
+OPENWEATHER_API_KEY = "xyz"
+MAPBOX_ACCESS_TOKEN = "pk.xyz.abc"
 
 
 
