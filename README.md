@@ -6,3 +6,6 @@ Description: Create a Python API that fetches weather data from a public service
 Run the python run app.py command to see the interface 
 
 
+
+youtube video = https://youtu.be/H9sspM2diuc
+
