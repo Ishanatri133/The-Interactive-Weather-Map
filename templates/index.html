@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Weather Map 🌍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+  <div class="app-container">
+    <div class="header">
+      <h1>🌍 Interactive Weather Map</h1>
+      <p>Click anywhere on the map to discover local weather conditions</p>
+    </div>
+    
+    <div class="map-container">
+      <div id="map"></div>
+      
+      <div id="infoPanel" class="info-panel">
+        <button class="close-btn" onclick="closeInfoPanel()">&times;</button>
+        <div id="infoPanelContent"></div>
+      </div>
+      
+      <div id="statusIndicator" class="status-indicator">
+        Ready to explore
+      </div>
+    </div>
+  </div>
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
