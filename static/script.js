@@ -1,5 +1,5 @@
 // Configuration
-const MAPBOX_TOKEN = 'pk.eyJ1IjoiaXNoYW4xMzMiLCJhIjoiY21leDV0dzNqMGQwdTJrczdtYTI3YTd3dCJ9.nWZ7_QLgUrjHt6SaVVCvhA';
+const MAPBOX_TOKEN = 'pk.xyz.abc';
 const API_BASE_URL = 'http://localhost:5000'; 
 
 // Initialize Mapbox
